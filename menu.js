@@ -13,7 +13,10 @@ direito. Ele também verifica se as teclas Shift, Alt ou Meta (como a tecla Comm
 callback será interrompida usando e.preventDefault(), que impede o comportamento padrão do clique.
 */ 
       e.preventDefault();
-    
+    /*se você quiser personalizar o comportamento de envio de dados usando JavaScript, pode usar o método 
+    e.preventDefault() para impedir que o formulário 
+    seja enviado automaticamente e, em vez disso, executar seu próprio código personalizado
+    */
       if($(this).parent().find('.menu').hasClass('expanded-mobile-menu')){
       /* Isso verifica se o elemento pai do elemento clicado possui um filho com a classe "menu" que também possui a 
     classe "expanded-mobile-menu". Essa verificação é feita usando o método hasClass(*/
